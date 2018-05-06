@@ -11,24 +11,23 @@ function callMe() {
 
 function crazy() {
   // fix the code in here:
-var word = "hey!!!"
   thisIsCrazy();
 
   var thisIsCrazy = function (){
-    console.log(word)
+    console.log("hey!!!")
   }
 }
 
 function sayMyName() {
-  var name = "Kristin";
-  console.log("Kristin");
-}
   // fix the code in here:
+  console.log("Kristin");
+
   var name = "Cricky";
 
   sayMy();
 
   function sayMy() {
     console.log(name);
+    var name = "Kristin";
   }
 }
